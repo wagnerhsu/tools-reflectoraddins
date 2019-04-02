@@ -1,7 +1,7 @@
 [assembly: System.Reflection.AssemblyTitle("Reflector.CodeSearch")]
 [assembly: System.Reflection.AssemblyCompany("mailto:hchapalain@hotmail.com")]
 [assembly: System.Reflection.AssemblyProduct("Reflector.CodeSearch")]
-[assembly: System.Reflection.AssemblyCopyright("Copyright © Herve Chapalain 2005-2007")]
+[assembly: System.Reflection.AssemblyCopyright("Copyright ?Herve Chapalain 2005-2007")]
 [assembly: System.Reflection.AssemblyVersion("5.0.0.*")]
 
 namespace Reflector.CodeSearch
@@ -566,7 +566,7 @@ namespace Reflector.CodeSearch
 						IMethodDeclaration md = null;
 						if (language.Translate)
 						{
-							ITranslator translator = this.translatorManager.CreateDisassembler(null, null);
+							ITranslator translator = this.translatorManager.CreateDisassembler();
 							if (translator != null)
 							{
 								md = translator.TranslateMethodDeclaration((IMethodDeclaration)method);
@@ -906,6 +906,11 @@ namespace Reflector.CodeSearch
 					this.newLine = false;
 				}
 			}
-		}
+
+            public void WriteCustom(string value)
+            {
+                writer.Write(value);
+            }
+        }
 	}
 }

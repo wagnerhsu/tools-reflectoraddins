@@ -1,0 +1,4 @@
+/Build/Intermediate/*
+/Source/.vs/*
+/Source/UpgradeLog*.htm
+*.pdb

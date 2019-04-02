@@ -2,3 +2,5 @@
 /Source/.vs/*
 /Source/UpgradeLog*.htm
 *.pdb
+bin/
+obj/

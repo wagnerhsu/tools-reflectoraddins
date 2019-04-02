@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyListEx", "AssemblyL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSearch", "CodeSearch\CodeSearch.csproj", "{A1551604-C1D2-11DB-96F9-005056C00008}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyCollection.Order", "AssemblyCollection.Sort\AssemblyCollection.Order.csproj", "{755C9594-0AF1-4E98-822C-F7C81FBFA84D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{A1551604-C1D2-11DB-96F9-005056C00008}.Release|x64.Build.0 = Debug|Any CPU
 		{A1551604-C1D2-11DB-96F9-005056C00008}.Release|x86.ActiveCfg = Debug|Any CPU
 		{A1551604-C1D2-11DB-96F9-005056C00008}.Release|x86.Build.0 = Debug|Any CPU
+		{755C9594-0AF1-4E98-822C-F7C81FBFA84D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755C9594-0AF1-4E98-822C-F7C81FBFA84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755C9594-0AF1-4E98-822C-F7C81FBFA84D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{755C9594-0AF1-4E98-822C-F7C81FBFA84D}.Debug|x64.Build.0 = Debug|Any CPU
+		{755C9594-0AF1-4E98-822C-F7C81FBFA84D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{755C9594-0AF1-4E98-822C-F7C81FBFA84D}.Debug|x86.Build.0 = Debug|Any CPU
+		{755C9594-0AF1-4E98-822C-F7C81FBFA84D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{755C9594-0AF1-4E98-822C-F7C81FBFA84D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{755C9594-0AF1-4E98-822C-F7C81FBFA84D}.Release|x64.ActiveCfg = Debug|Any CPU
+		{755C9594-0AF1-4E98-822C-F7C81FBFA84D}.Release|x64.Build.0 = Debug|Any CPU
+		{755C9594-0AF1-4E98-822C-F7C81FBFA84D}.Release|x86.ActiveCfg = Debug|Any CPU
+		{755C9594-0AF1-4E98-822C-F7C81FBFA84D}.Release|x86.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
